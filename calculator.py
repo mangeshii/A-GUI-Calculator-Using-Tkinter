@@ -7,7 +7,7 @@ root.title('Simple Calculator')
 e=tk.Entry(root, width=30,borderwidth=3)
 e.grid(row=0 ,column=0,columnspan=3,padx=10, pady=10)
 
-
+  
 def button_click(number):
     current=e.get()
     e.delete(0,END)
